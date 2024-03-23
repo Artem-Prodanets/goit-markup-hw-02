@@ -139,8 +139,8 @@ font-weight: 500;
 /* .features {} */
 
 .features-title {
-    /* visibility: hidden; */
-    display: none;
+    visibility: hidden;
+
 }
 
 .features-list-title {
