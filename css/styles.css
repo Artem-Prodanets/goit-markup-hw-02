@@ -1,7 +1,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: ;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -64,23 +64,25 @@ a {
     color: #404bbf;
 }
 
-.header-address {}
+.address {
+    font-style: normal;
+}
 
-.header-address-link {
+.address-header-link {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
 
-.header-address-link:hover {
+.address-header-link:hover {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #404bbf;
 }
 
-.header-address-link:focus {
+.address-header-link:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -162,6 +164,7 @@ font-weight: 500;
 /* ===================================== section team */
 .team {
     background-color: #F4F4FD;
+            text-transform: capitalize;
 }
 
 .team-title {
@@ -169,7 +172,6 @@ font-weight: 500;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
 }
 
@@ -178,7 +180,6 @@ font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
 }
 
@@ -186,10 +187,12 @@ font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #434455;
 }
 
+.team-list-item {
+    background-color: #fff;
+}
 
 .footer {
     background-color: #2E2F42;
@@ -201,3 +204,6 @@ font-weight: 500;
         letter-spacing: 0.02em;
         color: #f4f4fd;
 }
+
+
+/* =============================== portfolio */
